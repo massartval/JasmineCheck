@@ -26,7 +26,10 @@ let AjoutElementNombres = (nombres) => {
   return nombres;
 };
 
-let SuppressionPremierElement = (langages) => {};
+let SuppressionPremierElement = (langages) => {
+  langages.shift();
+  return langages;
+};
 
 let SuppressionDernierElement = (langages) => {};
 
