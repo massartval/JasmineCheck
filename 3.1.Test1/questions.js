@@ -14,7 +14,10 @@ let afficherCar5 = (texte) => {
   let car5 = texte.charAt(4);
   return car5;
 };
-let afficher9Car = (texte) => {};
+let afficher9Car = (texte) => {
+  let first9car = texte.substr(0, 9);
+  return first9car;
+};
 let majusculeString = (texte) => {};
 let minusculeString = (texte) => {};
 let SupprEspaceString = (texte) => {};
