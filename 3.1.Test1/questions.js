@@ -18,7 +18,10 @@ let afficher9Car = (texte) => {
   let first9car = texte.substr(0, 9);
   return first9car;
 };
-let majusculeString = (texte) => {};
+let majusculeString = (texte) => {
+  let majStr = texte.toUpperCase();
+  return majStr;
+};
 let minusculeString = (texte) => {};
 let SupprEspaceString = (texte) => {};
 let IsString = (texte) => {};
