@@ -30,7 +30,11 @@ let SupprEspaceString = (texte) => {
   texte = texte.trim();
   return texte;
 };
-let IsString = (texte) => {};
+let IsString = (texte) => {
+  if (typeof texte === "string") {
+    return true;
+  }
+};
 
 let AfficherExtensionString = (texte) => {};
 let NombreEspaceString = (texte) => {};
