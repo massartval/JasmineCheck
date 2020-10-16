@@ -3,7 +3,10 @@ let CreationTableauLangages = () => {
   return langages;
 };
 
-let CreationTableauNombres = () => {};
+let CreationTableauNombres = () => {
+  let nombres = [0, 1, 2, 3, 4, 5];
+  return nombres;
+};
 
 let RemplacementElement = (langages) => {};
 
