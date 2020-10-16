@@ -14,7 +14,11 @@ let RemplacementElement = (langages) => {
   return langages;
 };
 
-let AjoutElementLangages = (langages) => {};
+let AjoutElementLangages = (langages) => {
+  langages.push("Ruby");
+  langages.push("Python");
+  return langages;
+};
 
 let AjoutElementNombres = (nombres) => {};
 
