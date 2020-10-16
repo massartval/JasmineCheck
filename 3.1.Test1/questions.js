@@ -69,6 +69,9 @@ let valeurAbsolue = (nombre) => {
 let valeurAbsolueArray = (array) => {
   return array.map(Math.abs);
 };
-let sufaceCercle = (rayon) => {};
+let sufaceCercle = (rayon) => {
+  let surface = Math.PI * rayon * rayon;
+  return Math.round(surface);
+};
 let hypothenuse = (ab, ac) => {};
 let calculIMC = (poids, taille) => {};
