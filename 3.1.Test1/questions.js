@@ -63,7 +63,9 @@ let calculPuissance = (x, y) => {
   return Math.pow(x, y);
   // return x ** y;
 };
-let valeurAbsolue = (nombre) => {};
+let valeurAbsolue = (nombre) => {
+  return Math.abs(nombre);
+};
 let valeurAbsolueArray = (array) => {};
 let sufaceCercle = (rayon) => {};
 let hypothenuse = (ab, ac) => {};
