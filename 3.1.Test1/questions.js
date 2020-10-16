@@ -36,7 +36,12 @@ let IsString = (texte) => {
   }
 };
 
-let AfficherExtensionString = (texte) => {};
+let AfficherExtensionString = (texte) => {
+  // Use the lastIndexOf method to find the last period in the string, and get the part of the string after that:
+  let dot = texte.lastIndexOf(".");
+  let ext = texte.substr(dot + 1);
+  return ext;
+};
 let NombreEspaceString = (texte) => {};
 let InverseString = (texte) => {};
 
