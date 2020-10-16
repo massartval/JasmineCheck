@@ -10,7 +10,10 @@ let concatString = (texte1, texte2) => {
   let concatStr = `${texte1}${texte2}`;
   return concatStr;
 };
-let afficherCar5 = (texte) => {};
+let afficherCar5 = (texte) => {
+  let car5 = texte.charAt(4);
+  return car5;
+};
 let afficher9Car = (texte) => {};
 let majusculeString = (texte) => {};
 let minusculeString = (texte) => {};
