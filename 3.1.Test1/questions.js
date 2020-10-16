@@ -26,7 +26,10 @@ let minusculeString = (texte) => {
   let minStr = texte.toLowerCase();
   return minStr;
 };
-let SupprEspaceString = (texte) => {};
+let SupprEspaceString = (texte) => {
+  texte = texte.trim();
+  return texte;
+};
 let IsString = (texte) => {};
 
 let AfficherExtensionString = (texte) => {};
