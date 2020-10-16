@@ -48,7 +48,13 @@ let NombreEspaceString = (texte) => {
   let spacesCount = texte.match(space);
   return spacesCount.length;
 };
-let InverseString = (texte) => {};
+let InverseString = (texte) => {
+  let etxet = "";
+  for (i = texte.length - 1; i >= 0; i--) {
+    etxet += texte[i];
+  }
+  return etxet;
+};
 
 /**
  * Exercices sur les nombres et les caluls mathématiques
