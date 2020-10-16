@@ -59,7 +59,10 @@ let InverseString = (texte) => {
 /**
  * Exercices sur les nombres et les caluls mathématiques
  */
-let calculPuissance = (x, y) => {};
+let calculPuissance = (x, y) => {
+  return Math.pow(x, y);
+  // return x ** y;
+};
 let valeurAbsolue = (nombre) => {};
 let valeurAbsolueArray = (array) => {};
 let sufaceCercle = (rayon) => {};
