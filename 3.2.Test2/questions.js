@@ -1,43 +1,24 @@
-let CreationTableauLangages =  () => {
+let CreationTableauLangages = () => {
+  let langages = ["Html", "CSS", "Java", "PHP"];
+  return langages;
+};
 
-}
+let CreationTableauNombres = () => {};
 
-let CreationTableauNombres =  () => {
+let RemplacementElement = (langages) => {};
 
-}
+let AjoutElementLangages = (langages) => {};
 
-let RemplacementElement =  (langages) => {
+let AjoutElementNombres = (nombres) => {};
 
-}
+let SuppressionPremierElement = (langages) => {};
 
-let AjoutElementLangages =  (langages) => {
+let SuppressionDernierElement = (langages) => {};
 
-}
+let ConversionChaineTableau = (reseaux_sociaux_chaine) => {};
 
-let AjoutElementNombres =  (nombres) => {
+let ConversionTableauChaine = (langages) => {};
 
-}
+let TriTableau = (reseaux_sociaux) => {};
 
-let SuppressionPremierElement =  (langages) => {
-
-}
-
-let SuppressionDernierElement =  (langages) => {
-
-}
-
-let ConversionChaineTableau =  (reseaux_sociaux_chaine) => {
-
-}
-
-let ConversionTableauChaine =  (langages) => {
-
-}
-
-let TriTableau =  (reseaux_sociaux) => {
-
-}
-
-let InversionTableau =  (reseaux_sociaux) =>{
-
-}
+let InversionTableau = (reseaux_sociaux) => {};
