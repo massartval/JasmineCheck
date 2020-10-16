@@ -20,7 +20,11 @@ let AjoutElementLangages = (langages) => {
   return langages;
 };
 
-let AjoutElementNombres = (nombres) => {};
+let AjoutElementNombres = (nombres) => {
+  nombres.unshift(-1);
+  nombres.unshift(-2);
+  return nombres;
+};
 
 let SuppressionPremierElement = (langages) => {};
 
