@@ -22,7 +22,10 @@ let majusculeString = (texte) => {
   let majStr = texte.toUpperCase();
   return majStr;
 };
-let minusculeString = (texte) => {};
+let minusculeString = (texte) => {
+  let minStr = texte.toLowerCase();
+  return minStr;
+};
 let SupprEspaceString = (texte) => {};
 let IsString = (texte) => {};
 
