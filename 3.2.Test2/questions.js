@@ -8,7 +8,11 @@ let CreationTableauNombres = () => {
   return nombres;
 };
 
-let RemplacementElement = (langages) => {};
+let RemplacementElement = (langages) => {
+  let i = langages.indexOf("Java");
+  langages[i] = "Javascript";
+  return langages;
+};
 
 let AjoutElementLangages = (langages) => {};
 
