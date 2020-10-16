@@ -36,7 +36,10 @@ let SuppressionDernierElement = (langages) => {
   return langages;
 };
 
-let ConversionChaineTableau = (reseaux_sociaux_chaine) => {};
+let ConversionChaineTableau = (reseaux_sociaux_chaine) => {
+  let reseaux_sociaux = reseaux_sociaux_chaine.split(",");
+  return reseaux_sociaux;
+};
 
 let ConversionTableauChaine = (langages) => {};
 
