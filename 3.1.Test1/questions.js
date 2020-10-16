@@ -66,7 +66,9 @@ let calculPuissance = (x, y) => {
 let valeurAbsolue = (nombre) => {
   return Math.abs(nombre);
 };
-let valeurAbsolueArray = (array) => {};
+let valeurAbsolueArray = (array) => {
+  return array.map(Math.abs);
+};
 let sufaceCercle = (rayon) => {};
 let hypothenuse = (ab, ac) => {};
 let calculIMC = (poids, taille) => {};
