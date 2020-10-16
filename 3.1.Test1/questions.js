@@ -42,7 +42,12 @@ let AfficherExtensionString = (texte) => {
   let ext = texte.substr(dot + 1);
   return ext;
 };
-let NombreEspaceString = (texte) => {};
+let NombreEspaceString = (texte) => {
+  // Use match(regex)
+  let space = / /g;
+  let spacesCount = texte.match(space);
+  return spacesCount.length;
+};
 let InverseString = (texte) => {};
 
 /**
