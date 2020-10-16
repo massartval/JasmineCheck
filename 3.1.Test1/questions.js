@@ -73,5 +73,9 @@ let sufaceCercle = (rayon) => {
   let surface = Math.PI * rayon * rayon;
   return Math.round(surface);
 };
-let hypothenuse = (ab, ac) => {};
+let hypothenuse = (ab, ac) => {
+  let sidesSquaredSum = ab * ab + ac * ac;
+  let hyp = Math.sqrt(sidesSquaredSum);
+  return hyp;
+};
 let calculIMC = (poids, taille) => {};
