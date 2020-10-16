@@ -78,4 +78,7 @@ let hypothenuse = (ab, ac) => {
   let hyp = Math.sqrt(sidesSquaredSum);
   return hyp;
 };
-let calculIMC = (poids, taille) => {};
+let calculIMC = (poids, taille) => {
+  let IMC = poids / (taille * taille);
+  return Math.round(IMC * 100) / 100;
+};
